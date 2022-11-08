@@ -1,0 +1,377 @@
+.wrapper {
+    margin: 120px 70px 0 100px ;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-auto-rows: 50px;
+    color: gray;
+    grid-auto-flow: dense;
+    border: 10px solid black;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.a01 {
+    grid-column: auto / span 2;
+}
+
+.a02 {
+    grid-column: auto / span 3;
+}
+
+.a03 {
+    grid-column: auto / span 2;
+    background-color: yellow;
+}
+
+.a04 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: blue;
+}
+
+.a05 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.a06 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    background-color: black;
+}
+
+.a07 {
+    grid-column: auto / span 3;
+}
+
+.a08 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a09 {
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 4;
+    background-color: red;
+}
+
+.a10 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.a11 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.a12 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.a13 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: yellow;
+}
+
+.a14 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: red;
+}
+
+.a15 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: black;
+}
+
+.a16 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+}
+
+.a17 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a18 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a19 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a20 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: black;
+}
+
+.a21 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a22 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a23 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+}
+
+.a24 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: black;
+}
+
+.a25 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a26 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a27 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a28 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a29 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 4;
+    background-color: blue;
+}
+
+.a30 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: yellow;
+}
+
+.a31 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a32 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: blue;
+}
+
+.a33 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.a34 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: black;
+}
+
+.a35 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.a36 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a37 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.a38 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a39 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: red;
+}
+
+.a40 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 1;
+}
+
+.a41 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.a42 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 1;
+}
+
+.a43 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a44 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: blue;
+}
+
+.a45 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: red;
+}
+
+.a46 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background-color: black;
+}
+
+.a47 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.a48 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: yellow;
+}
+
+.a49 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: black;
+}
+
+.a50 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 3;
+    background-color: red;
+}
+
+.a51 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background-color: blue;
+}
+
+.a52 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 1;
+}
+
+.a53 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 3;
+    background-color: black;
+}
+
+.a54 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+    background-color: blue;
+}
+
+.a55 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 3;
+}
+
+.a56 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.a57 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background-color: yellow;
+}
+
+.a58 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: blue;
+}
+
+.a59 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.a60 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 1;
+}
+
+.a61 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: red;
+}
+
+.a62 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+    background-color: black;
+}
+
+.a63 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.a64 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+}
+
+.a65 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+    background-color: yellow;
+}
+
+.a66 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 1;
+}
+
